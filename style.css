@@ -1,0 +1,79 @@
+#hsr-controller{
+	margin:10px 1% 0;background:#FFF;min-height:45px;line-height:45px;width:96%;padding:0 1%;
+}
+#hsr-controller b{
+	margin:0 20px;
+}
+#hsr-panel{
+	margin:10px 1%;background:#FFF;min-height:700px;width:96%;padding:1%;
+}
+#hsr-panel .unit{
+	display:block;
+	float:left;
+	height:200px;
+	width:14%;
+	background:#0073AA;
+	margin:0;
+	padding:0;
+	margin-right:1px;
+	margin-bottom:1px;
+	color:#FFF;
+	cursor:pointer;
+}
+#hsr-panel .unit.dummy{
+	background:#FFF;
+	height:10px;
+	cursor:default;
+}
+#hsr-panel .unit.weekdayz{
+	background:#23282D;
+	height:20px;
+	margin-bottom:10px;
+	cursor:default;
+}
+#hsr-panel .unit.past{
+	opacity: 0.5;
+    filter: alpha(opacity=50);
+	cursor:default;
+}
+#hsr-panel table.global_settings tr{
+	height:50px;
+	line-height:50px;
+}
+#hsr-panel b.title{
+	font-size:18px;
+}
+#hsr-panel td.highlighted{
+	background:#F00;
+}
+#hsr-panel  .orderlist{
+	min-height:100px;
+	width:600px;
+	border:1px solid #DDD;
+	float:right;
+	padding:5px;
+	margin-right:5px;
+	margin-top:-100px;
+}
+#hsr-panel  .orderlist h2{
+	background:#000;
+	color:#FFF;
+	padding:10px;
+}	
+#hsr-panel  .orderlist .order{
+	padding:15px;
+	border-bottom:1px dashed #000;
+	font-size:14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
